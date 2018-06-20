@@ -28,7 +28,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             ListItem item = (ListItem) view.getTag();
 
             Context context = view.getContext();
-            Intent intent = new Intent(context, MainActivity.class);
+            Intent intent = new Intent(context, SuperheroDetailActivity.class);
             intent.putExtra("imageUrl", item.getImageUrl());
             intent.putExtra("name", item.getHead());
             context.startActivity(intent);

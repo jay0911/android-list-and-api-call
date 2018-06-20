@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="70"
-        android:id="@+id/image"
+        android:id="@+id/imageViewer"
         android:scaleType="centerCrop"
         android:src="@mipmap/ic_launcher"
         />
